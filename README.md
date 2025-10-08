@@ -32,7 +32,7 @@
   </style>
 </head>
 <body>
-  <h1>Sudoku — JavaScript (aparece en web)</h1>
+  <h1>Sudoku</h1>
   <div class="container">
     <div>
       <div id="board" class="board" aria-label="Tablero de Sudoku"></div>
