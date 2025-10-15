@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+  <title>Sudoku - JavaScript</title>
+</head>
+<body>
+  <h1>Sudoku</h1>
+  <div class="container">
+    <div>
+      <div id="board" class="board" aria-label="Tablero de Sudoku"></div>
+      <div class="footer small"></div>
+    </div>
+
+    <div class="controls">
+      <div class="actions">
+        <button id="loadPreset">Cargar predeterminado</button>
+        <button id="clear">Limpiar</button>
+        <button id="erase">Borrar celda</button>
+        <button id="check">Comprobar</button>
+        <button id="solveSimple">Rellenar candidatos (sólo ayuda)</button>
+      </div>
+
+      <div style="margin-top:6px">Panel de números:</div>
+      <div class="pad" id="numPad"></div>
+
+      <div class="status" id="status">Estado: listo</div>
+    </div>
+  </div>
+<script src="main.js"></script>
+</body>
+</html>
